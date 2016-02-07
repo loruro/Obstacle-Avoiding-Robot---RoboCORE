@@ -43,7 +43,8 @@ void Sonar::start()
 }
 
 /**
-* @brief Gets distane to objects. Measurement is performed 5 times and mean value is calculated.
+* @brief Gets distane to objects. Measurement is performed 5 times
+*			and mean value is calculated.
 * @return Distance to object.
 */
 float Sonar::getDist()
@@ -73,7 +74,8 @@ void Sonar::getDistances(float *allDistances)
 }
 
 /**
-* @brief Gets distances to objects around robot and then moves towards safest direction.
+* @brief Gets distances to objects around robot
+*			and then moves towards safest direction.
 */
 void Sonar::scanAndGo()
 {
@@ -86,7 +88,8 @@ void Sonar::scanAndGo()
 			float allDistances[7];
 			getDistances(allDistances);
 
-			float distanceForward = min(min(allDistances[2], allDistances[3]), allDistances[4]);
+			float distanceForward = min(min(allDistances[2], allDistances[3]),
+				allDistances[4]);
 
 			motor_mutex.take();
 
@@ -97,10 +100,13 @@ void Sonar::scanAndGo()
 			}
 			else
 			{
-				float distanceLeft = min(min(allDistances[0], allDistances[1]), allDistances[2]);
-				float distanceRight = min(min(allDistances[4], allDistances[5]), allDistances[6]);
+				float distanceLeft = min(min(allDistances[0], allDistances[1]),
+					allDistances[2]);
+				float distanceRight = min(min(allDistances[4], allDistances[5]),
+					allDistances[6]);
 
-				if(distanceForward > distanceLeft && distanceForward > distanceRight)
+				if(distanceForward > distanceLeft &&
+					distanceForward > distanceRight)
 				{
 					motorRight->setPower(-motorPower);
 					motorLeft->setPower(-motorPower);
@@ -140,7 +146,8 @@ void Sonar::scanAndGo()
 }
 
 /**
-* @brief Detects collision by using touch sensor and then moves robot backwards for defined time.
+* @brief Detects collision by using touch sensor
+*			and then moves robot backwards for defined time.
 */
 void Sonar::collisionProcedure()
 {
