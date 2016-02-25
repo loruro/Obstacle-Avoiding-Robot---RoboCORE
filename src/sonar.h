@@ -1,8 +1,3 @@
-/** @file sonar.h
- *  @brief Sonar header
- *  @author Karol Leszczyński
- */ 
-
 /*
 This file is part of Obstacle Avoiding Robot.
 
@@ -19,6 +14,11 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with Obstacle Avoiding Robot.  If not, see <http://www.gnu.org/licenses/>.
 */
+
+/** @file sonar.h
+ *  @brief Sonar header
+ *  @author Karol Leszczyński
+ */ 
 
 #define REMOTE_CONTROL 1
 
