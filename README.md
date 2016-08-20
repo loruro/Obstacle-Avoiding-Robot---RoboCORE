@@ -23,3 +23,5 @@ If there is no satisfactory way or it hits something with bumper, robot moves ba
 After turning on the robot it doesn't know position of ultrasonic sensor. Calibration process involves turning sensor counterclockwise until it detects very close obstacle, which is Lego brick placed on robot for this purpose. After detection it knows more or less position of sensor.
 
 When the robot is connected by USB cable with device with Android it can be connected to [RoboCORE Platform](https://wiki.robocore.io/cloud:start) and remotely controlled.
+
+[![ Obstacle Avoiding Robot - RoboCORE](https://raw.githubusercontent.com/loruro/Obstacle-Avoiding-Robot---RoboCORE/master/img/robot_video_thumbnail.jpg)](https://www.youtube.com/watch?v=U8Yx7cLgSN8)
