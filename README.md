@@ -5,7 +5,7 @@ It was a group project but the entire software was written by me.
 
 Code has to be used with RoboCORE SDK.
 
-![](https://github.com/loruro/Obstacle-Avoiding-Robot---RoboCORE/blob/master/img/robot.jpg)
+<div align="center"><img src="img/robot.jpg"/></div>
 
 Task of the robot was to avoid obstacles by using ultrasonic sensor.
 It consist of:
@@ -24,4 +24,4 @@ After turning on the robot it doesn't know position of ultrasonic sensor. Calibr
 
 When the robot is connected by USB cable with device with Android it can be connected to [RoboCORE Platform](https://wiki.robocore.io/cloud:start) and remotely controlled.
 
-[![ Obstacle Avoiding Robot - RoboCORE](https://raw.githubusercontent.com/loruro/Obstacle-Avoiding-Robot---RoboCORE/master/img/robot_video_thumbnail.jpg)](https://www.youtube.com/watch?v=U8Yx7cLgSN8)
+<div align="center"><a href="https://www.youtube.com/watch?v=U8Yx7cLgSN8" target="_blank"><img src="img/robot_video_thumbnail.jpg"/></a></div>
