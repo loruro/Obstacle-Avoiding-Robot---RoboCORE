@@ -1,4 +1,4 @@
-# Obstacle-Avoiding-Robot---RoboCORE
+# Obstacle Avoiding Robot - RoboCORE
 
 This is the source code of a program for the obstacle avoiding robot based on [RoboCORE](https://robocore.io/) controller.
 It was a group project but the entire software was written by me.
