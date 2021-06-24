@@ -5,7 +5,7 @@ It was a group project but the entire software was written by me.
 
 Code has to be used with RoboCORE SDK.
 
-<div align="center"><img src="https://raw.githubusercontent.com/loruro/Obstacle_Avoiding_Robot---RoboCORE/master/img/robot.jpg"/></div>
+<div align="center"><a href="https://raw.githubusercontent.com/loruro/Obstacle_Avoiding_Robot---RoboCORE/master/img/robot.jpg" target="_blank"><img src="https://raw.githubusercontent.com/loruro/Obstacle_Avoiding_Robot---RoboCORE/master/img/robot.jpg"/></a></div>
 
 Task of the robot was to avoid obstacles by using ultrasonic sensor.
 It consist of:
